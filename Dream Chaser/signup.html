@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validation</title>
+</head>
+<body>
+	<table>
+	<form action="" method="post" id="form">
+	<tr>
+		<td>First Name</td>
+		<td>
+			<input type="text" id="firstName">
+			<span id="firstNameError" style="color:red"></span>
+		</td>
+	</tr>
+	<tr>
+		<td>Last Name</td>
+		<td>
+			<input type="text" id="lastName">
+			<span id="lastNameError" style="color:red"></span>
+		</td>
+	</tr>
+	<tr>
+		<td>Email Address</td>
+		<td>
+			<input type="text" id="emailAddress">
+			<span id="emailAddressError" style="color:red"></span>
+		</td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td>
+			<input type="password" id="password">
+			<input type="checkbox" id="showPassword">Show Password
+			<span id="passwordError" style="color:red"></span>
+		</td>
+	</tr>
+	<tr>
+		<td>Confirm Password</td>
+		<td>
+			<input type="password" id="confirmPassword">
+			<span id="confirmPasswordError" style="color:red"></span>
+		</td>
+	</tr>
+	<tr>
+	<td>Gender</td>
+	<td>
+		<input type="radio" name="gender" value="male" >Male
+		<input type="radio" name="gender" value="female" >Female
+		<span id="genderError" style="color:red"></span>
+	</td>
+	</tr>
+	<tr>
+	<td>District Name</td>
+	<td>
+		<select id="districtName">
+			<option value="0">---Select Your District Name---</option>
+			<option value="1">Dhaka</option>
+			<option value="2">Cumilla</option>
+			<option value="3">Noakhali</option>
+			<option value="4">Barishal</option>
+			<option value="5">Sylhet</option>
+		</select>
+	</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+		<input type="submit" onclick="useracc.html" id="btn" value="Submit">
+		</td>
+	</tr>
+	</form>
+	</table>
+	<script src="js/Jquery.js"></script>
+	<script src="signup.js"></script>
+</body>
+</html>

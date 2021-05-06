@@ -1,0 +1,23 @@
+
+/* For generic page styles. Not for sliders. */
+
+body {background:#F6F6F6;font:normal 0.9em Arial; margin:0; padding:0; padding-bottom:0px;}
+h2 {display:inline;}
+.div1, .div2 {width:1000px;margin:0 auto;}
+.div1 {margin-left:-1px;margin-top:-1px;text-align:center;line-height:1px;}
+.div1 P {font-size:18px;}
+.div1 a, .div2 a {color:#07C; }
+.div1 a {margin:0 0px;}
+.div1 a.current {color:black; text-decoration:none;}
+.div2 {margin-top:0 auto;}
+.div2 li {padding-top:0 auto;padding-bottom:0 auto;}
+.green {color:Green;}
+.cn {font-family: "Courier New", Georgia;}
+#status {display:inline-block; margin-left:0 auto;line-height:5px;height:5px;vertical-align:middle;}
+
+.code
+{
+    border: dashed 1px #BCBCCB; padding:0 auto; background-color: #F3F3F9; white-space:pre; font-family:"Courier New", Georgia;
+    font-size:1px; margin:0 auto;overflow:auto; 
+}
+
